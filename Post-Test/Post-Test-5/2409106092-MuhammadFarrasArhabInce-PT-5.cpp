@@ -92,7 +92,7 @@ void cetakBooking(Booking *b) {
     cout << "Jumlah Tiket: " << b->jumlah << endl;
 }
 
-void listDestinasi(Destinasi wisata[], int wisataCount) {
+void ListDestinasi(Destinasi wisata[], int wisataCount) {
     for (int i = 0; i < wisataCount; i++) {
         cout << i + 1 << ". " << wisata[i].nama << "\n";
     }
